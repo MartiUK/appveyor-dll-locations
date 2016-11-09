@@ -1,0 +1,6 @@
+version: 1.0.{build}
+image: Visual Studio 2013
+
+build_script:
+    - cmd: cd C:\Qt\5.4
+    - cmd: DIR /S /B /O:GN
